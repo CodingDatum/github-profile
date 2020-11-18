@@ -50,4 +50,5 @@ main article{
     border-radius: 20px;
     padding:30px;
     font-size: 18px;
+    overflow-y: scroll;
 }
