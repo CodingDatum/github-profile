@@ -52,3 +52,6 @@ main article{
     font-size: 18px;
     overflow-y: scroll;
 }
+scrollbar{
+    color:blue;
+}
