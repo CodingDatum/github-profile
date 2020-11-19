@@ -21,6 +21,11 @@ header{
     text-align: justify;
     background-color: white;
     padding: 10px;
+    color: darkblue;
+}
+hr{
+    height: 1px;
+    /*background-color:black;*/
 }
 h1{
     font-size: 45px;
@@ -83,6 +88,9 @@ main{
     line-height: 40px;
     letter-spacing: 2.5px;
     font-size: 18px;
+}
+main article p{
+    color: darkblue;
 }
 footer{
     font-family:sans-serif;
