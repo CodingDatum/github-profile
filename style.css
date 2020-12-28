@@ -1,111 +1,40 @@
 *{
-    box-sizing:border-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-/* as opposed to linear gradient */
-html{
-    background: radial-gradient(circle, white, grey);
-}
-#me{
-    float: left;
-    margin: 20px;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-header{
-    
-    height: 300px;
-    box-shadow: 0px 0px 25px 0px black;
-    text-align: justify;
-    background-color: white;
-    padding: 10px;
-    color: darkblue;
-}
-hr{
-    height: 1px;
-    /*background-color:black;*/
-}
-h1{
-    font-size: 45px;
-    text-shadow: 1px 1px 2px gray;
-}
-h2{
-    font-size: 30px;
-    text-shadow: 1px 1px 2px gray;
-}
-h3{
-    font-size: 25px;
-}
-header ul{
-    list-style: none;
-    display: flex;
-}
-li{
-    border-right: 1px black solid;
-    margin: 0px 10px;
-    padding-right:10px;
-}
-
-/* THIS NOT WORKING */
-main ol{
-    list-style:lower-roman;
-}
-main ol li{
-    border-right: none;
-}
-li:last-child{
-    border-right: none;
-}
-.links{
-    margin-top:80px;
-}
-a:link{
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
-}
-
-/* for some reason this turns all of the links blue when I only visit one link */
-a:visited{
-    color:darkblue;
-}
-a:hover{
-    font-weight: 550;
-    text-shadow: 1px 1px 2px lightgray;
-}
-a:active{
-    color: darkgray;
-}
-main{
-    font-family: sans-serif;
-    margin: 40px auto;
-    width: 900px;
-    height: 500px;
-    background-color:white;
-    box-shadow: 0px 0px 25px 0px black;
-    overflow-y:scroll;
+    box-sizing: border-box;
     text-align:center;
-    line-height: 40px;
-    letter-spacing: 2.5px;
-    font-size: 18px;
 }
-main article p{
-    color: darkblue;
+
+/* HTML TAGS */
+
+
+
+/* CLASSES */
+
+.image{
+    width: 10%;
 }
-footer{
-    font-family:sans-serif;
-    width: 1200px;
+
+
+/* IDS */
+
+/* .container{
+    background-color:teal;
+    display: flex;
+    align-items: center;
+
+}
+.image{
+    background-image: url('images/question-mark.png');
     height: 200px;
-    background-color: blue;
-    color: white;
-    margin: 40px auto;
-    box-shadow: 0px 0px 25px 0px black;
-    background: linear-gradient(160deg, darkblue, lightblue);
-    padding: 20px;
-    text-align: justify;
-    text-shadow: 1px 1px 1px black;
-}
+    width: 200px;
+    margin: 5px;
+    border: 1px solid white;
+    
+} */
+
+
+/* IDS
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11, #pic12{
+
+    /* background-image: src"images/image1.png"; */
 
 
