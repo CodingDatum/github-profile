@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "utf-8">
+    
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    
+    <title>Matt's Github Profile</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
 
-    <title>Picture Matching Game</title>
-
-       <!-- MY STYLE SHEET -->
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Can You Match These Pictures?</h1>
-        <h2>Click on two images, try to get them to match!</h2>
+        <div>
+            <img alt="Profile picture of Matthew Cain" id="me" src="images/profile.jpg">
+        </div>
+        <div id="logo">
+            <h1>Matthew Cain</h1>
+            <hr>
+            <h2>Software Developer</h2>
+        </div>
+        <nav class="links">
+            <ul>
+                <li><a href="https://github.com/CodingDatum">GitHub Profile </a></li>
+                <li><a href="https://www.linkedin.com/in/matthew-cain-7b69311b8/"> Linkd In Profile </a></li>
+                <li><a href="mailto:codingdatum@gmail.com"> Email Me</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#experience">Coding Experience</a></li>
+                <li><a href="#hobbies">Hobbies/Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+            </ul>
+        </nav>
     </header>
-    <main  class="container">
 
 
-            <img src="images/question-mark.png" id="pic1" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic2" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic3" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic4" class="image col-lg-3"><br>
-            <img src="images/question-mark.png" id="pic5" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic6" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic7" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic8" class="image col-lg-3"><br>
-            <img src="images/question-mark.png" id="pic9" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic10" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic11" class="image col-lg-3">
-            <img src="images/question-mark.png" id="pic12" class="image col-lg-3">
+    <main>
+        <article>
+            <h2>Here's a little about me:</h2>
+            <section id="aboutme"><h3>Intro</h3>
+                <p>My name is <em>Matthew Cain</em>, and I am an aspiring <em>software developer</em> hailing from a little north of Boston Massachusetts.</p>
+                <p>Prior to my studies in programming, I was a full time restaraunt employee. While I held the positions of "Server", "Bartender", and "Manager on Duty" by title,
+                I soon came to realize that I had to become much more flexible than simply the duties that each position entailed.</p><p> Being apart of the food-service industry,
+                I learned about hard work, the importance of communication, how to effectively work as a team, and how to efficiently and expeditiously addres issues as they arose, quite frequently I might add.</p>          
+                </section>
+            <hr>
+
+
+            <section id="experience"><h3>Coding Experience</h3>
+                <p>Currently I am cultivating my craft under the tutelage of <em>"The Complete 2020 Web Development Bootcamp"</em> with <em>The London App Brewery's</em> very own <em>Angela Yu</em>.</p>
+                <p>Because many of the previous classes I attempted were based off of expired material, I learned how to become independant, and privy to navigating the web for the correct solutions. </p>
+
+            </section>
+            <hr>
+
+
+            <section id="hobbies"><h3>Other Hobbies/Skills</h3>
+                <p>I've always been drawn to creative endeavores. Therefore, usually my spare time is filled with:</p>
+                
+                <!-- I cannot figure out why my ordered lists have no style even though I identified a style here as well as in style.css -->
+                
+                <ol style="list-style:upper-roman">
+                    <li><strong>Playing piano and singing</strong></li>
+                    <li><strong>Cooking</strong>-<sub>(with lots of garlic!)</sub></li>
+                    <li><strong>Photography</strong><sub>(pictures coming soon)</sub></li>
+                </ol>
+                <p>Much like my programming, I also developed these skills through hundreds of hours of self-taught learning, and many many phases of trial and error.</p>
+            </section>
+            <hr>
+
+
+            <section id="projects"><h3>Check out my projects:</h3>
+                <ul>
+                    <li>Test your multiplication skills with this <a href="https://codingdatum.github.io/Math-Game/">Math Game</a></li>
+                    <li>This is a fake landing page demonstrating components of the Bootstrap framework. I "present":<a href="https://codingdatum.github.io/tindog-tinder-for-dogs-/">Tinder for Dogs</a></li>
+                    <li>Using JavaScript's event handlers and higher order functions, I was able to make this basic <a href="https://codingdatum.github.io/Drum-Solo/">Drum Kit</a></li>
+                    <li>This game of <a href="https://codingdatum.github.io/Simon-Says/">Simon</a> will test my complex functions against your memory!</li>
+                    <li>Another memory game, can you get these images to match with <a href="https://codingdatum.github.io/picture-matching-game/">Picture Matching</a></li>
+                </ul>
             
+            </section>
+        </article>
     </main>
     
-
-
-
-
+    <!-- Not sure what to include here at this point in my career -->
     <footer>
-        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-        <p>https://freesound.org/s/475839/</p>
-        <p>https://freesound.org/s/214989/</p>
-    
+        <p>&#169; Matthew Cain Web Development &#169;</p>
     </footer>
-
-    <script src="script2.js"></script>
+    
+<script src="script.js"></script>
 </body>
+
 </html>
